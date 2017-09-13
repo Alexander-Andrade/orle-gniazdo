@@ -5,7 +5,8 @@
 // All it does is render <div>Hello Vue</div> at the bottom of the page.
 
 import Vue from 'vue'
-import App from './app.vue'
+import App from './orle-gniazdo/components/app.vue'
+import VueRouter from 'vue-router';
 
 document.addEventListener('DOMContentLoaded', () => {
   document.body.appendChild(document.createElement('hello'))
@@ -13,3 +14,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
   console.log(app)
 })
+console.log(VueRouter)
